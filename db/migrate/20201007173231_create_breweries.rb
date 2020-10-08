@@ -7,9 +7,10 @@ class CreateBreweries < ActiveRecord::Migration[6.0]
       t.string :city
       t.string :state
       t.string :postal_code
+      t.float :lng
+      t.float :lat
       t.string :phone
-      t.float :longitude
-      t.float :latitude
+      t.string :website_url
 
       t.timestamps
     end

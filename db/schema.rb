@@ -22,9 +22,10 @@ ActiveRecord::Schema.define(version: 2020_10_08_162504) do
     t.string "city"
     t.string "state"
     t.string "postal_code"
+    t.float "lng"
+    t.float "lat"
     t.string "phone"
-    t.float "longitude"
-    t.float "latitude"
+    t.string "website_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -56,7 +57,6 @@ ActiveRecord::Schema.define(version: 2020_10_08_162504) do
     t.string "username"
     t.string "email"
     t.string "password_digest"
-    t.datetime "date_of_birth"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
