@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  review: MyString
+  atmosphere: MyString
+  rating: MyString
+  user: one
+  brewery: one
+
+two:
+  title: MyString
+  review: MyString
+  atmosphere: MyString
+  rating: MyString
+  user: two
+  brewery: two
