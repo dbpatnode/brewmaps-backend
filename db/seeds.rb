@@ -1,6 +1,7 @@
-Brewery.destroy_all
+
 Favorite.destroy_all
 Note.destroy_all
+Brewery.destroy_all
 User.destroy_all
 
 ## USERS ##
