@@ -5,5 +5,7 @@ class User < ApplicationRecord
     has_many :noted_breweries, through: :notes, source: :breweries
 
     has_secure_password
-    validates :username, uniqueness: true
+    validates_presence_of :username, :email
+    validates_uniqueness_of :username, :username
+
 end
